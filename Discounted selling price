@@ -1,0 +1,17 @@
+import java.util.Scanner;
+// Discounted selling price 
+public class class1 {
+        public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      Float Original, Discounted, Finalprice;
+      System.out.println("Enter Original price");
+      Original = sc.nextFloat(); 
+      System.out.println("Enter Discounted price");
+      Discounted = sc.nextFloat(); 
+
+      Finalprice = Original - (Original * Discounted / 100);
+      System.out.println("Discounted selling price is" + Finalprice);
+      
+    }
+  }
+  
