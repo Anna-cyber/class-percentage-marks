@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class class1 {
+      public static void main(String[] args) {
+         Scanner sc = new Scanner(System.in);
+        
+        float volt, ampere, watts;
+
+        System.out.print("Enter voltage: ");
+        volt = sc.nextFloat();
+
+        System.out.print("Enter current (ampere): ");
+        ampere = sc.nextFloat();
+
+        watts = volt * ampere;
+
+        System.out.println("Power = " + watts + " Watts");}
+}
