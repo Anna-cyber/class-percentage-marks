@@ -1,0 +1,15 @@
+import java.util.Scanner;
+//Percentage Marks
+public class class1 {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      Float obtanined, total, percentage;
+      System.out.println("Enter obtanined marks");
+      obtanined = sc.nextFloat();
+      System.out.println("Enter total marks");
+      total =sc .nextFloat();
+      percentage = (obtanined/total*100);
+      System.out.println("Percentage is " + percentage);
+    }
+  }
+  
